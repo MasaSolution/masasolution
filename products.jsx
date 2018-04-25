@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-export default class Home extends React.Component {
+export default class Products extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -9,7 +9,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <div id={this.props.id}>
-                <h1>Welcome on MasaSolution</h1>
+                <h1>Products</h1>
                 <img src="construction.jpg" alt="Page is under construction"/>
             </div>
         );
