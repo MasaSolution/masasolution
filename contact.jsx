@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <div className="card text-center">
+            <div  id={this.props.id} className="card text-center">
                 <div className="card-header">
                     MasaSolution
                     </div>
