@@ -8,16 +8,13 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <div  id={this.props.id} className="card text-center">
+            <div className="fixed-bottom card text-center">
                 <div className="card-header">
                     MasaSolution
                     </div>
                 <div className="card-body">
-                    <h5 className="card-title">Special title treatment</h5>
-                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" hidden className="btn btn-primary">Go somewhere</a>
+                    <h5 className="card-title">E-Mail: </h5>
                 </div>
-                <div className="card-footer text-muted"></div>
             </div>
         );
     }

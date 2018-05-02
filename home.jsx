@@ -8,7 +8,7 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <div id={this.props.id}>
+            <div>
                 <h1>Welcome on MasaSolution</h1>
                 <img src="construction.jpg" alt="Page is under construction"/>
             </div>

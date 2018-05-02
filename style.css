@@ -1,46 +1,7 @@
-body{
+body {
   background-color: gray;
 }
 
-.sidePane {
-  position: fixed;
-  left: 16%;
-  height: 100%;
-  background-color: white;
+h1 {
+  text-align: center
 }
-
-.contentPane {
-  position: fixed;
-  left: 32%;
-  background-color: burlywood;
-}
-
-#contact {
-  position: absolute;
-  bottom: 1%;
-  right: 1%;
-}
-
-/*
-.sidePane {
-  position: fixed;
-  top: 1%;
-  left: 1%;
-  right: 1%;
-  height: 100%;
-  background-color: white;
-}
-
-#contact {
-  position: absolute;
-  bottom: 1%;
-  right: 1%;
-}
-
-.contentPane {
-  position: absolute;
-  left: 22%;
-  align-content: center;
-  background-color: burlywood;
-}
-*/
