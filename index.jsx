@@ -15,18 +15,15 @@ export default class Index extends React.Component {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="sidePane col-2">
-                        <nav className="nav flex-column">
-                            <a className="border rounded nav-link" href="#home">Home</a>
-                            <a className="border rounded nav-link" href="#services">Services</a>
-                            <a className="border rounded nav-link" href="#products">Products</a>
-                        </nav>
-                        <Contact key="contact" id="contact" />
+                    <Contact key="contact" />
+                    <div className="contentPane col-3">
                     </div>
                     <div className="contentPane col-6">
-                        <Home key="home" id="home" />
-                        <Services key="services" id="services" />
-                        <Products key="products" id="products" />
+                        <Home key="home" />
+                        <Services key="services" />
+                        <Products key="products" />
+                    </div>
+                    <div className="contentPane col-3">
                     </div>
                 </div>
             </div>
