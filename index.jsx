@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import Home from "./home.jsx"
+import Introduction from "./intro.jsx"
 import Services from "./services.jsx"
 import Products from "./products.jsx"
 import Contact from "./contact.jsx"
@@ -19,7 +19,7 @@ export default class Index extends React.Component {
                     <div className="contentPane col-3">
                     </div>
                     <div className="contentPane col-6">
-                        <Home key="home" />
+                        <Introduction key="introduction" />
                         <Services key="services" />
                         <Products key="products" />
                     </div>
