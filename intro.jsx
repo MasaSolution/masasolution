@@ -9,8 +9,8 @@ export default class Introduction extends React.Component {
     render() {
         return (
             <div>
-                <h1>Welcome on MasaSolution</h1>
-                <img src="construction.jpg" alt="Page is under construction"/>
+                <p> MasaSolution is a small business established to deliver services, hardware and software solutions around the word.</p>
+                <p> You can select from our continously growing pruduct portfolio or ask for offer for your coustom needs</p>
             </div>
         );
     }

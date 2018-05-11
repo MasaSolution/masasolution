@@ -19,9 +19,10 @@ export default class Index extends React.Component {
                     <div className="contentPane col-3">
                     </div>
                     <div className="contentPane col-6">
+                        <h1 className="text-center">Welcome on MasaSolution</h1>
                         <Introduction key="introduction" />
-                        <Services key="services" />
                         <Products key="products" />
+                        <Services key="services" />
                     </div>
                     <div className="contentPane col-3">
                     </div>
