@@ -1,3 +1,26 @@
+footer {
+  position: fixed;
+  margin-left: 15px;
+  height: 200px;
+  width: calc(100% - 30px);
+  bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    left: 8.33%;
+    width: calc(83.33% - 30px);
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    left: 25%;
+    width: calc(50% - 30px);
+  }
+}
+
 body {
+  margin-bottom: 215px;
   background-color: gray;
 }

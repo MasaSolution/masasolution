@@ -32,6 +32,7 @@ export default class Services extends React.Component {
                         <small className="text-muted" hidden></small>
                     </div>
                 </div>
+                <div className="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none "></div>
                 <div className="card">
                     <img className="card-img-top" src="img/hardware.png" alt="Hardware image" />
                     <div className="card-body">
@@ -42,6 +43,7 @@ export default class Services extends React.Component {
                         <small className="text-muted" hidden></small>
                     </div>
                 </div>
+                <div className="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none "></div>
                 <div className="card">
                     <img className="card-img-top" src="img/solution.png" alt="Solutions image" />
                     <div className="card-body">

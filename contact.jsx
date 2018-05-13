@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <div className="fixed-bottom card text-center">
+            <div className="card text-center">
                 <div className="card-header">MasaSolution</div>
                 <div className="card-body">
                     <h5 className="card-title">Sales & Contact: <a href="mailto:contact.masasolution@gmail.com?subject=Contact">contact.masasolution@gmail.com</a></h5>

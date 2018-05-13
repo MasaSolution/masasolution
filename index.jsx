@@ -13,20 +13,24 @@ export default class Index extends React.Component {
 
     render() {
         return (
-            <div className="container-fluid">
-                <div className="row">
-                    <Contact key="contact" />
-                    <div className="contentPane col-3">
-                    </div>
-                    <div className="contentPane col-6">
-                        <h1 className="text-center">Welcome on MasaSolution</h1>
-                        <Introduction key="introduction" />
-                        <Products key="products" />
-                        <Services key="services" />
-                    </div>
-                    <div className="contentPane col-3">
+            <div>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-1 col-xl-3">
+                        </div>
+                        <div className="col-md-10 col-xl-6">
+                            <h1 className="text-center">Welcome on MasaSolution</h1>
+                            <Introduction key="introduction" />
+                            <Products key="products" />
+                            <Services key="services" />
+                        </div>
+                        <div className="col-md-1 col-xl-3">
+                        </div>
                     </div>
                 </div>
+                <footer className="page-footer">
+                    <Contact key="contact"/>
+                </footer>
             </div>
         );
     }
