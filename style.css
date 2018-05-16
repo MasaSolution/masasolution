@@ -1,3 +1,8 @@
+header {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 footer {
   position: fixed;
   margin-left: 15px;
@@ -20,11 +25,13 @@ footer {
   }
 }
 
-.card {
-  margin-bottom: 15px;
-}
-
 body {
+  background-image: url(img/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
   margin-bottom: 215px;
   background-color: gray;
 }

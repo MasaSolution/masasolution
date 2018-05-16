@@ -27,9 +27,7 @@ export default class Index extends React.Component {
                         </div>
                     </div>
                 </div>
-                <footer className="page-footer">
-                    <Contact key="contact"/>
-                </footer>
+                <Contact key="contact" />
             </div>
         );
     }
