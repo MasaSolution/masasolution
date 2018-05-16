@@ -8,9 +8,15 @@ export default class Introduction extends React.Component {
 
     render() {
         return (
-            <div>
-                <p> MasaSolution is a small business established to deliver services, hardware and software solutions around the word.</p>
-                <p> You can select from our continously growing pruduct portfolio or ask for offer for your coustom needs</p>
+            <div className="card">
+                <div className="card-body">
+                    <h1 className="card-title text-center">Welcome on MasaSolution</h1>
+                    <p className="card-text"> MasaSolution is a small business established to deliver services, hardware and software solutions around the word.</p>
+                    <p className="card-text"> You can select from our continously growing pruduct portfolio or request an offer to solve your issue.</p>
+                </div>
+                <div className="card-footer">
+                    <small className="text-muted" hidden></small>
+                </div>
             </div>
         );
     }

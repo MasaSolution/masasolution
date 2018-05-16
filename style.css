@@ -20,6 +20,10 @@ footer {
   }
 }
 
+.card {
+  margin-bottom: 15px;
+}
+
 body {
   margin-bottom: 215px;
   background-color: gray;

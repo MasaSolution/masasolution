@@ -19,7 +19,6 @@ export default class Index extends React.Component {
                         <div className="col-md-1 col-xl-3">
                         </div>
                         <div className="col-md-10 col-xl-6">
-                            <h1 className="text-center">Welcome on MasaSolution</h1>
                             <Introduction key="introduction" />
                             <Products key="products" />
                             <Services key="services" />
