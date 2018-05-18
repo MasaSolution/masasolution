@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import Introduction from "./intro.jsx"
+import Service from "./service.jsx"
 import Services from "./services.jsx"
 import Products from "./products.jsx"
 import Contact from "./contact.jsx"
