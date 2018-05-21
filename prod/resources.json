@@ -1,0 +1,16 @@
+{
+  "Interfaces": {
+    "MSI-USBN": {
+      "price": 6,
+      "doc": "msi_usbn.pdf",
+      "images": [
+        "msi_usbn_1.jpg",
+        "msi_usbn_2.jpg",
+        "msi_usbn_3.jpg",
+        "msi_usbn_4.jpg",
+        "msi_usbn_dim.jpg",
+        "msi_usbn_pinout.jpg"
+      ]
+    }
+  }
+}
