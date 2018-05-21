@@ -9,7 +9,7 @@
     "prop-types": "^15.5.10",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "superagent": "^3.5.2"
+    "superagent": "^3.8.3"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
