@@ -14,9 +14,6 @@ export default class Service extends React.Component {
                     <h5 className="card-title">{this.props.title}</h5>
                     <p className="card-text">{this.props.body}</p>
                 </div>
-                <div className="card-footer">
-                    <small className="text-muted" hidden></small>
-                </div>
             </div>
         );
     }

@@ -6,7 +6,6 @@ header {
 footer {
   position: fixed;
   margin-left: 15px;
-  height: 200px;
   width: calc(100% - 30px);
   bottom: 5px;
 }
@@ -32,6 +31,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
-  margin-bottom: 215px;
+  margin-bottom: 70px;
   background-color: gray;
 }

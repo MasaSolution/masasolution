@@ -48,7 +48,7 @@ export default class Products extends React.Component {
         }
 
         return (
-            <div className="card">
+            <div className="card" style={{marginBottom: "15px"}}>
                 <div className="card-body">
                     <ProductNavigator key="ProductNavigator" products={this.state.products} onClick={this.onChangeItem.bind(this)} />
                     {product}
