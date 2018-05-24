@@ -19,7 +19,7 @@ export default class Index extends React.Component {
                     <div className="row">
                         <div className="col-md-1 col-xl-3">
                         </div>
-                        <div className="col-md-10 col-xl-6">
+                        <div className="col-md-10 col-xl-10 offset-xl-1">
                             <Introduction key="introduction" />
                             <Products key="products" />
                             <Services key="services" />

@@ -24,6 +24,10 @@ footer {
   }
 }
 
+.badge-primary {
+  margin-left: 5pt;
+}
+
 body {
   background-image: url(img/background.png);
   background-position: center center;
