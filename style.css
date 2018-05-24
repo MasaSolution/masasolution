@@ -35,6 +35,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
+  font-size: 12pt;
+
   margin-bottom: 70px;
   background-color: gray;
 }
