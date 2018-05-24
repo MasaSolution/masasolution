@@ -11,7 +11,7 @@ export default class Services extends React.Component {
     static FwCardDescription() {
         return (
             <span>
-                <b>FIXME</b> If you have difficulties with realizing your dreams, we cen help you by delivering software solutions, revise your existing 
+                <b>FIXME</b> If you have difficulties with realizing your dreams, we can help you by delivering software solutions, revise your existing 
                 system or participate in different phases of development.
             </span>
         );
