@@ -8,18 +8,17 @@ export default class Services extends React.Component {
         super(props);
     }
 
-
     static FwCardDescription() {
         return (
             <span>
-                If you have any issue to realize your dreams, we cen help you by delivering software solutions, revise your existing 
+                <b>FIXME</b> If you have difficulties with realizing your dreams, we can help you by delivering software solutions, revise your existing 
                 system or participate in different phases of development.
             </span>
         );
     }
 
     static FwCardFooter() {
-        return (<span>Real-Time, IoT, Embedded, C, C++, FreeRTOS, ARM, 32bit</span>);
+        return (<span>Real-Time, IoT, Embedded, C, C++, FreeRTOS, ARM</span>);
     }
 
     static HwCardDescription() {

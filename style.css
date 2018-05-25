@@ -24,12 +24,18 @@ footer {
   }
 }
 
+.badge-primary {
+  margin-left: 5pt;
+}
+
 body {
   background-image: url(img/background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
+  font-size: 12pt;
 
   margin-bottom: 70px;
   background-color: gray;
