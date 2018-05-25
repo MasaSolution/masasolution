@@ -17,18 +17,18 @@ export default class Index extends React.Component {
             <div>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-1 col-xl-3">
-                        </div>
                         <div className="col-md-10 col-xl-10 offset-xl-1">
                             <Introduction key="introduction" />
                             <Products key="products" />
                             <Services key="services" />
                         </div>
-                        <div className="col-md-1 col-xl-3">
+                    </div>
+                    <div className="row fixed-bottom">
+                        <div className="col-md-10 col-xl-10 offset-xl-1">
+                            <Contact key="contact" />
                         </div>
                     </div>
                 </div>
-                <Contact key="contact" />
             </div>
         );
     }

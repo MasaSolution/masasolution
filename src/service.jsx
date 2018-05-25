@@ -9,7 +9,7 @@ export default class Service extends React.Component {
     render() {
         return (
             <div className="card">
-                <img className="card-img-top" src={this.props.imgurl} alt="image" style={{padding: "1rem"}} />
+                <img className="card-img-top" src={this.props.imgurl} alt="image" style={{padding: "1rem", width: "200pt"}} />
                 <div className="card-body">
                     <h5 className="card-title">{this.props.title}</h5>
                     <p className="card-text">{this.props.body}</p>
