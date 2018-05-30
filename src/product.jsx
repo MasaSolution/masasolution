@@ -25,12 +25,12 @@ export default class Product extends React.Component {
                     </h5>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-6">
                             <ProductSlideShow key={this.props.name} name={this.props.name} images={this.props.prod.images} />
                         </div>
                         <div className="col-6">
-                            {this.props.prod.description}
+                            <div dangerouslySetInnerHTML={{ __html: this.props.prod.description }} />
                         </div>
                     </div>
                 </div>

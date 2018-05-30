@@ -21,7 +21,7 @@ class Slide extends React.Component {
     render() {
         return (
             <div className={"carousel-item w-100 " + (this.props.index == 0 ? "active" : "")}>
-                <img className="d-block" style={{ height: "400px" }} src={"/prod/img/" + this.props.image} alt="Slide" />
+                <img className="d-block" style={{ height: "300pt" }} src={"/prod/img/" + this.props.image} alt="Slide" />
             </div>
         );
     }

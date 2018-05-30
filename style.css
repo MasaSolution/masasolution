@@ -1,5 +1,14 @@
+.card-deck{
+  margin: 0 0 1rem 0;
+}
+
 .card {
-  margin: 15px;
+  margin-top: 1rem;
+}
+
+.card-deck .card {
+  margin-left: 0pt;
+  margin-right: 0pt;
 }
 
 .badge-primary {
@@ -12,9 +21,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: gray;
 
   font-size: 12pt;
-
-  margin-bottom: 70px;
-  background-color: gray;
 }

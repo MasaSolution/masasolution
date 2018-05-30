@@ -5,7 +5,6 @@ import Introduction from "./intro.jsx"
 import Service from "./service.jsx"
 import Services from "./services.jsx"
 import Products from "./products.jsx"
-import Contact from "./contact.jsx"
 
 export default class Index extends React.Component {
     constructor() {
@@ -14,19 +13,16 @@ export default class Index extends React.Component {
 
     render() {
         return (
-            <div>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-md-10 col-xl-10 offset-xl-1">
-                            <Introduction key="introduction" />
-                            <Products key="products" />
-                            <Services key="services" />
-                        </div>
+            <div className="container-fluid">
+                <div className="row sticky-top">
+                    <div className="col-md-10 col-xl-10 offset-xl-1">
+                        <Introduction key="introduction" />
                     </div>
-                    <div className="row fixed-bottom">
-                        <div className="col-md-10 col-xl-10 offset-xl-1">
-                            <Contact key="contact" />
-                        </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-10 col-xl-10 offset-xl-1">
+                        <Products key="products" />
+                        <Services key="services" />
                     </div>
                 </div>
             </div>
