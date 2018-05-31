@@ -18,9 +18,7 @@ export default class Product extends React.Component {
                         </div>
                         <div className="float-right">
                             <a href={"/prod/" + this.props.prod.doc} className="badge badge-info" target="_blank">Whitepaper</a>
-                            <span className="badge badge-primary">
-                                Only for ${this.props.prod.price}
-                            </span>
+                            <a href={this.props.prod.shop_link} className="badge badge-primary" target="_blank">Only for ${this.props.prod.price}</a>
                         </div>
                     </h5>
                 </div>

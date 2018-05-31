@@ -2,6 +2,7 @@
   "Interfaces": {
     "MSI-USBN": {
       "price": 6,
+      "shop_link": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=&_sacat=0&LH_TitleDesc=0&LH_SpecificSeller=1&_saslop=1&LH_GD=0&_fss=1&_odkw=moravas32&_osacat=0&_sasl=moravas32&rt=nc",
       "doc": "MSI_USBN.pdf",
       "description": "<h2>Description</h2><p>The MSI-USBN device is a low-cost non-isolated USB-Serial converter. Its design exceptionally  suited  to  integrate  into  larger  solutions  or  mount  into  end-user devices.</p>",
       "images": [
