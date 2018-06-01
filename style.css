@@ -15,6 +15,22 @@
   margin-left: 5pt;
 }
 
+@media (max-width: 768px) {
+  .sticky-top {
+    position: relative;
+  }
+}
+
+.carousel img {
+  height: 150pt;
+}
+
+@media (min-width: 768px) { 
+  .carousel img {
+    height: 300pt;
+  }
+}
+
 body {
   background-image: url(img/background.png);
   background-position: center center;
