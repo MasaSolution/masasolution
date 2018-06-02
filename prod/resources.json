@@ -1,5 +1,5 @@
 {
-  "Interfaces": {
+  "OEM Interfaces": {
     "MSI-USBN": {
       "price": 6,
       "shop_link": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=&_sacat=0&LH_TitleDesc=0&LH_SpecificSeller=1&_saslop=1&LH_GD=0&_fss=1&_odkw=moravas32&_osacat=0&_sasl=moravas32&rt=nc",
@@ -12,6 +12,22 @@
         "msi_usbn_4.jpg",
         "msi_usbn_dim.jpg",
         "msi_usbn_pinout.jpg"
+      ]
+    }
+  },
+  "Converters": {
+    "MSUSB-485N": {
+      "price": 7.5,
+      "shop_link": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=&_sacat=0&LH_TitleDesc=0&LH_SpecificSeller=1&_saslop=1&LH_GD=0&_fss=1&_odkw=moravas32&_osacat=0&_sasl=moravas32&rt=nc",
+      "doc": "MSUSB_485N.pdf",
+      "description": "<h2>Description</h2><p>The MSUSB-485N device is the non isolated USB-RS485 converter designed for use in cost efficient application for data acquisition and commissioning of RS-485 based systems.</p>",
+      "images": [
+        "msusb_485n_1.jpg",
+        "msusb_485n_2.jpg",
+        "msusb_485n_3.jpg",
+        "msusb_485n_4.jpg",
+        "msusb_485n_5.jpg",
+        "msusb_485n_6.jpg"
       ]
     }
   }
