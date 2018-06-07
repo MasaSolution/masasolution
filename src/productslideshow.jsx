@@ -48,6 +48,10 @@ export default class ProductSlideShow extends React.Component {
         this.state = { slideShowLink: "slideShowLink" + this.props.name.replace("-", "") };
     }
 
+    componentDidMount() {
+        $('.carousel').carousel()
+    }
+
     render() {
         var slides = [];
         var indicators = [];
