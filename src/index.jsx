@@ -15,12 +15,12 @@ export default class Index extends React.Component {
         return (
             <div className="container-fluid">
                 <div className="row sticky-top">
-                    <div className="col-md-10 col-xl-10 offset-xl-1">
+                    <div className="col-md-10 offset-md-1">
                         <Introduction key="introduction" />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-10 col-xl-10 offset-xl-1">
+                    <div className="col-md-10 offset-md-1">
                         <Products key="products" />
                         <Services key="services" />
                     </div>

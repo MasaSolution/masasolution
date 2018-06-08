@@ -7,8 +7,7 @@
 }
 
 .card-deck .card {
-  margin-left: 0pt;
-  margin-right: 0pt;
+  margin: 1rem 0 0 0;
 }
 
 .badge-primary {

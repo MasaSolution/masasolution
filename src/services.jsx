@@ -52,10 +52,10 @@ export default class Services extends React.Component {
             <div className="card-deck">
                 <Service key="fw" imgurl="img/firmware.png" title="Firmware & Software" body={Services.FwCardDescription()} footer={Services.FwCardFooter()} />
                 <div className="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none "></div>
-                <div className="mx-2"></div>
+                <div className="mx-lg-2"></div>
                 <Service key="hw" imgurl="img/hardware.png" title="Hardware development" body={Services.HwCardDescription()} footer={Services.HwCardFooter()} />
                 <div className="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none "></div>
-                <div className="mx-2"></div>
+                <div className="mx-lg-2"></div>
                 <Service key="sln" imgurl="img/solution.png" title="Deliver solutions" body={Services.SlnCardDescription()} footer={Services.SlnCardFooter()} />
             </div>
         );
