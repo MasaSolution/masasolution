@@ -13,6 +13,16 @@
         "msi_usbn_dim.jpg",
         "msi_usbn_pinout.jpg"
       ]
+    },
+    "MSI-485N": {
+      "price": 3,
+      "shop_link": "",
+      "doc": "MSI_485N.pdf",
+      "description": "<h2>Description</h2><h5>Preorder available, minimum quantity: 10pcs</h5><p>The MSI-485N is a half-duplex differential bus transceiver / level shifter designated to use as OEM part in devices where communication in noisy environment over long distances is expected.</p>",
+      "images": [
+        "msi_485n_dim.jpg",
+        "msi_485n_pinout.jpg"
+      ]
     }
   },
   "Converters": {
@@ -27,7 +37,8 @@
         "msusb_485n_3.jpg",
         "msusb_485n_4.jpg",
         "msusb_485n_5.jpg",
-        "msusb_485n_6.jpg"
+        "msusb_485n_6.jpg",
+        "msusb_485n_pinout.jpg"
       ]
     }
   }
