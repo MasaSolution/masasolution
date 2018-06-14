@@ -6,10 +6,15 @@
       "doc": "MSI_USBN.pdf",
       "description": "<h2>Description</h2><p>The MSI-USBN device is a low-cost non-isolated USB-Serial converter. Its design exceptionally  suited  to  integrate  into  larger  solutions  or  mount  into  end-user devices.</p>",
       "images": [
+        "msi_usbn_6.jpg",
         "msi_usbn_1.jpg",
-        "msi_usbn_2.jpg",
-        "msi_usbn_3.jpg",
         "msi_usbn_4.jpg",
+        "msi_usbn_5.jpg",
+        "msi_usbn_9.jpg",
+        "msi_usbn_12.jpg",
+        "msi_usbn_13.jpg",
+        "msi_usbn_15.jpg",
+        "msi_usbn_17.jpg",
         "msi_usbn_dim.jpg",
         "msi_usbn_pinout.jpg"
       ]
@@ -32,13 +37,17 @@
       "doc": "MSUSB_485N.pdf",
       "description": "<h2>Description</h2><p>The MSUSB-485N device is the non isolated USB-RS485 converter designed for use in cost efficient application for data acquisition and commissioning of RS-485 based systems.</p>",
       "images": [
+        "msusb_485n_5.jpg",
         "msusb_485n_1.jpg",
-        "msusb_485n_2.jpg",
         "msusb_485n_3.jpg",
         "msusb_485n_4.jpg",
-        "msusb_485n_5.jpg",
         "msusb_485n_6.jpg",
-        "msusb_485n_pinout.jpg"
+        "msusb_485n_7.jpg",
+        "msusb_485n_8.jpg",
+        "msusb_485n_10.jpg",
+        "msusb_485n_11.jpg",
+        "msusb_485n_12.jpg",
+        "msusb_485n_13.jpg"
       ]
     }
   }
